@@ -16,12 +16,12 @@ export function HeroSection() {
                     >
                         LinkedIn to Portfolio Website in Two Clicks
                     </h1>
-                    <p className="text-base text-black mb-9 max-w-xl mx-auto lg:mx-0">
+                    <p className="text-base text-slate-600 mb-9 max-w-xl mx-auto lg:mx-0">
                         Click Get Started, choose from a variety of stunning themes, and just like that your portfolio is ready in a zap! 🚀
                     </p>
                     <Link
                         href="/get-started"
-                        className="inline-flex items-center justify-center px-8 py-2.5 border border-transparent lg:text-lg font-medium rounded-full text-white bg-[#592BE9] hover:bg-[#482be9] transition-colors duration-300 ease-in-out group"
+                        className="inline-flex items-center justify-center px-8 py-2.5 border border-transparent lg:text-lg font-medium rounded-2xl text-white bg-[#592BE9] hover:bg-[#482be9] transition-colors duration-300 ease-in-out group"
                     >
                         Get Started
                         <ArrowRight

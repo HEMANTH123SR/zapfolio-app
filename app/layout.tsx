@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" style={hackerNormal.style}>
       <body
-        className={` flex flex-col   w-screen h-screen`}
+        className={` flex flex-col   w-screen h-full`}
         style={{
           // backgroundColor: "#F6F7F9",
           backgroundColor: "#FFFFFF"
