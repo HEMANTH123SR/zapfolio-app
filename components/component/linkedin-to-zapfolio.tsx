@@ -2,13 +2,12 @@
 
 
 import { ArrowRight } from 'lucide-react';
-import { hackerMedium, fredokaOne } from "@/fonts/font";
+import { fredokaOne } from "@/fonts/font";
 import Image from 'next/image';
 
 export const LinkedinToZapfolio = () => {
     return (
         <section className="w-full overflow-x-hidden"
-            style={hackerMedium.style}
         >
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between items-center  py-16">
                 <h2 className="text-3xl text-black md:text-4xl lg:text-5xl font-medium text-center mb-6"
