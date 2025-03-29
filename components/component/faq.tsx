@@ -27,73 +27,52 @@ export const FaqSection = () => {
 
             {/* <h1 className="mb-8 text-3xl md:text-4xl lg:text-5xl font-semibold text-black">Any questions?</h1> */}
             <Accordion type="single" collapsible className="w-full lg:w-9/12  sm:px-5">
+
+
+
                 <AccordionItem value="item-1">
-                    <AccordionTrigger>What is Webpolio?</AccordionTrigger>
+                    <AccordionTrigger>What is Zapfolio?</AccordionTrigger>
                     <AccordionContent>
-                        Webpolio is an innovative platform that allows you to create a
-                        stunning, personalized web portfolio effortlessly by leveraging your
-                        existing LinkedIn data. With just a few clicks, your LinkedIn
-                        profile is transformed into a visually appealing and customizable
-                        website, showcasing your skills, experiences, and achievements.
+                        Zapfolio is a no-code portfolio builder that creates a professional portfolio in just two clicks. Simply enter your LinkedIn URL, pick a theme, and your portfolio is ready!
                     </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-2">
-                    <AccordionTrigger>How does Webpolio work?</AccordionTrigger>
+                    <AccordionTrigger>How does Zapfolio work?</AccordionTrigger>
                     <AccordionContent>
-                        Simply log in to Webpolio with your LinkedIn account, and our
-                        platform will seamlessly import your professional information,
-                        including your bio, work history, education, and more. This data is
-                        then used to generate a professional-grade web portfolio tailored to
-                        your needs.
+                        When you enter your LinkedIn profile URL, our external API scrapes your LinkedIn data and stores it in our database. When you request a portfolio, we fetch and display that data instantly.
                     </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="item-3" className="hidden md:block">
-                    <AccordionTrigger>
-                        Do I need to know coding  to use Webpolio?
-                    </AccordionTrigger>
+                <AccordionItem value="item-3">
+                    <AccordionTrigger>Do I need to know coding to use Zapfolio?</AccordionTrigger>
                     <AccordionContent>
-                        No, Webpolio is designed to be user-friendly and accessible to
-                        everyone, regardless of their technical skills. Our intuitive
-                        platform takes care of the website building process, allowing you to
-                        focus on customizing and promoting your online presence.
+                        No, Zapfolio is completely no-code. You don’t need any technical skills—just enter your LinkedIn URL and let us handle the rest.
                     </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-4">
-                    <AccordionTrigger>
-                        Can I customize the design and layout of my web portfolio?
-                    </AccordionTrigger>
+                    <AccordionTrigger>Can I customize the design and layout?</AccordionTrigger>
                     <AccordionContent>
-                        Absolutely! Webpolio offers a range of customizable templates and
-                        design options, allowing you to personalize your web portfolio to
-                        match your personal brand and preferences.
+                        As of now, customization is limited to theme selection. However, we plan to introduce more design customization options in the future.
                     </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-5">
-                    <AccordionTrigger>Is there a free plan available?</AccordionTrigger>
+                    <AccordionTrigger>Is Zapfolio free?</AccordionTrigger>
                     <AccordionContent>
-                        Yes, Webpolio offers a free plan that provides a solid foundation
-                        for creating a professional online presence. The free plan includes
-                        basic features such as importing your LinkedIn data, selecting from
-                        a curated set of templates, and ensuring a responsive design.
+                        Yes, Zapfolio is currently free to use. There is no premium plan yet.
                     </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-6">
-                    <AccordionTrigger>
-                        What additional features are included in the premium plan?
-                    </AccordionTrigger>
+                    <AccordionTrigger>How can I remove the watermark?</AccordionTrigger>
                     <AccordionContent>
-                        The premium plan unlocks advanced features and customization
-                        options, including unlimited template selection, advanced
-                        customization tools, custom domain integration, multimedia
-                        capabilities, social media integration, and comprehensive website
-                        analytics and insights.
+                        Simply write a LinkedIn post about Zapfolio (positive or negative) and submit the link at <a href="https://zapfolio.in/linkedin-post-feedback" className="text-blue-500 underline">zapfolio.in/linkedin-post-feedback</a>. That’s it!
                     </AccordionContent>
                 </AccordionItem>
+
+
             </Accordion>
         </section >
     );
